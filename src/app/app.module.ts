@@ -8,10 +8,11 @@ import { FechaactualComponent } from './fechaactual/fechaactual.component';
 import { CopyrightComponent } from './copyright/copyright.component';
 import { ViewmodeloComponent } from './viewmodelo/viewmodelo.component';
 import { EjmetodoComponent } from './ejmetodo/ejmetodo.component';
+import { EjpropertybindingComponent } from './ejpropertybinding/ejpropertybinding.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, FechaactualComponent, CopyrightComponent, ViewmodeloComponent, EjmetodoComponent ],
+  declarations: [ AppComponent, HelloComponent, FechaactualComponent, CopyrightComponent, ViewmodeloComponent, EjmetodoComponent, EjpropertybindingComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
